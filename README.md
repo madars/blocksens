@@ -1,4 +1,4 @@
-blocksens --a SAT instance generator for investigating the sensitivity vs block sensitivity problem
+blocksens — a SAT instance generator for investigating the sensitivity vs block sensitivity problem
 ===================================================================================================
 
 The code here implements the search for a Boolean function with maximal separation between its sensitivity and block sensitivity. The number of all Boolean functions on `n` variables is `2^{2^n}`, but this code was able to search up until `n=12` by using a reduction to Boolean satisfiability problem and state-of-the-art SAT solvers. (This was in 2010, so probably improvements in SAT solvers and chip technology will let one search even further.)
